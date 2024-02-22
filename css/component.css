@@ -1,0 +1,62 @@
+/* sidebar */
+.sidebar {
+  width: 306px;
+  height: 100dvh;
+  padding: 25px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+/* menu */
+
+.menu-link {
+  margin-top: 15px;
+}
+.menu-link a {
+  padding: 11px;
+  font-weight: 500;
+  color: var(--text-light);
+  font-size: 14px;
+}
+.menu-link a.active{
+  color: var(--white);
+  background: var(--PrimaryColor);
+}
+.menu-link a.active svg path{
+  fill: var(--white);
+}
+.menu-link a.active img{
+ display: none;
+}
+.menu-link a svg {
+  margin-right: 14px;
+}
+.menu-arrow-left {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+/* profile-box */
+.profile-image{
+  height: 42px;
+  width: 42px;
+}
+.profile-box-user{
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  max-width: 256px;
+  margin: auto;
+}
+.profile-name-box{
+  margin-left: 12px;
+}
+.profile-icon {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+/* topbar section */
+.top-bar-section {
+  padding-left: 330px;
+}
